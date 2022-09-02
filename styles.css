@@ -38,3 +38,9 @@ body
     height: 200px;
 }
 
+.quote-container .quote
+{
+    color: white;
+    font-family: 'Rubik', monospace;
+}
+
