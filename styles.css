@@ -1,6 +1,6 @@
 body
 {
-    background-color: rgb(32,38,50);
+    background-color: hsl(220,22%,16%);
     margin: 0;
     width: 100vw;
     height: 100vh;
@@ -12,8 +12,9 @@ body
 
 .container
 {
+    background-color: hsl(218,20%,24%);
     border: 2px solid red;
-    width: 200px;
+    width: 300px;
 }
 
 .next-button
@@ -34,6 +35,6 @@ body
     border: 2px solid blue;
     text-align: center;
     padding: 10px;
-    height: 100px;
+    height: 200px;
 }
 
