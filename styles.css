@@ -1,10 +1,32 @@
-.quote-container
+body
+{
+    background-color: rgb(32,38,50);
+    margin: 0;
+    border-top: 0;
+}
+
+.container
 {
     border: 2px solid red;
-    width: 20%;
-    height: 90px;
+    width: 200px;
+}
+
+.next-button
+{
     display: flex;
     justify-content: center;
     align-items: center;
-    overflow: hidden;
+    border: 2px solid yellow;
+
 }
+
+
+.quote-container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid blue;
+    height: 100px;
+}
+
