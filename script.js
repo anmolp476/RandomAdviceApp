@@ -12,6 +12,5 @@ async function setQuote()
 {
     let advice = await getQuote();
     let paragraph = document.querySelector(".quote");
-    paragraph.innerText = advice;
-    console.log(paragraph)
+    paragraph.innerText = `"${advice}"`;
 }
