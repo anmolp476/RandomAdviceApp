@@ -1,6 +1,17 @@
-const nextQuote = () =>
+async function getQuote()
 {
-    fetch("https://api.adviceslip.com/advice")
-        .then(res => res.json())
-        .then(msg => console.log(msg.slip.advice));
+    const response = await fetch("https://api.adviceslip.com/advice")
+    const quoteSlip = await response.json();
+    const quote = quoteSlip.slip.advice;
+    return quote;
+}
+
+
+
+async function setQuote()
+{
+    let advice = await getQuote();
+    let paragraph = document.querySelector(".quote");
+    paragraph.innerText = advice;
+    console.log(paragraph)
 }
