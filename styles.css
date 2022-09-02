@@ -1,0 +1,10 @@
+.quote-container
+{
+    border: 2px solid red;
+    width: 20%;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
