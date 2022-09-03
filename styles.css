@@ -29,17 +29,17 @@ body
 }
 
 
-/* CSS for the button elements
+/* CSS for the button elements */
 .next-button
 {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* border: 2px solid yellow; 
+    /* border: 2px solid yellow;  */
 
-} */
+}
 
-/* .next-button button
+.next-button button
 {
     position: absolute;
     width: 50px;
@@ -50,7 +50,7 @@ body
     background-image: url('./images/icon-dice.svg');
     background-position-x: 83px;
     background-position-y: 83px;
-}   */
+}  
 
 
 /* CSS for the quote elements */
