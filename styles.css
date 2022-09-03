@@ -12,9 +12,20 @@ body
 
 .container
 {
-    background-color: hsl(218,20%,24%);
+    position: relative;
     border: 2px solid red;
-    width: 300px;
+    width: 350px;
+}
+
+.count-container
+{
+    /* border: 2px solid hotpink; */
+    position: absolute;
+    left: 39%;
+    padding: 0;
+    text-align: center;
+    font-family: 'Rubik', monospace;
+    color: hsl(151,99%,66%);
 }
 
 .next-button
@@ -29,6 +40,7 @@ body
 
 .quote-container
 {
+    background-color: hsl(218,20%,24%);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -42,5 +54,6 @@ body
 {
     color: white;
     font-family: 'Rubik', monospace;
+    font-size: larger;
 }
 
